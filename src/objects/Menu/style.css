@@ -9,7 +9,7 @@
   content: "";
   height: 4px;
   width: 100%;
-  background-color: red;
+  background-color: var(--color-fourth);
   border-radius: 2px;
 }
 .menu::before,
