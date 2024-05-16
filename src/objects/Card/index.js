@@ -1,8 +1,11 @@
 import React from 'react';
 import './style.css';
-const Card = () => {
+
+const Card = ({children}) => {
   return (
-    <article className='card'></article>
+    <article className='card'>
+      {children}
+    </article>
   );
 }
 export default Card;
