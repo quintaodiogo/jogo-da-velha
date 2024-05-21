@@ -16,7 +16,7 @@ function App() {
       <Hashtag />
       <Checkbox value="show" id="show" content="Mostrar eventos" type="checkbox"/>
       <About>
-        <LogoCollab />
+        <LogoCollab light/>
         <AboutLink className="-light"/>
         <IconClose />
       </About>
