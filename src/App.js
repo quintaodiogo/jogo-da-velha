@@ -3,11 +3,9 @@ import "./App.css";
 
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
-import AboutLink from "./objects/Sobre";
-import IconClose from "./objects/IconClose";
-import LogoCollab from "./objects/LogoCollab";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
+import HeaderInternal from "./components/HeaderInternal";
 
 function App() {
   return (
@@ -16,9 +14,7 @@ function App() {
       <Hashtag />
       <Checkbox value="show" id="show" content="Mostrar eventos" type="checkbox"/>
       <About>
-        <LogoCollab light/>
-        <AboutLink className="-light"/>
-        <IconClose />
+        <HeaderInternal />
       </About>
     </main>
   );
