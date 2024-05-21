@@ -1,9 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const Sobre = () => {
-    return (
-        <a href="#to-do" className="sobre"> Sobre</a>
-    );
-};
+const Sobre = ({ className = "" }) => (
+    <a href="#to-do" className={`sobre ${className}`}>Sobre</a>
+);
+
 export default Sobre;

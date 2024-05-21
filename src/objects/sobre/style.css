@@ -5,3 +5,7 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.sobre.-light{
+  color: var(--color-zero);
+}

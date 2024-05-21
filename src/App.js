@@ -14,7 +14,7 @@ function App() {
       <Hashtag />
       <Checkbox value="show" id="show" content="Mostrar eventos" type="checkbox"/>
       <About>
-        <Sobre />
+        <Sobre className="-light"/>
       </About>
     </main>
   );
