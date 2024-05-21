@@ -1,13 +1,15 @@
 import React from "react";
-import LogoCollab from "../../objects/LogoCollab";
-import Sobre from "../../objects/Sobre/index";
-import Menu from "../../objects/Menu/index";
 import "./style.css";
+
+import LogoCollab from "../../objects/LogoCollab";
+import AboutLink from "../../objects/Sobre/index";
+import Menu from "../../objects/Menu/index";
+
 const Header = () => {
   return (
     <header className="header">
       <LogoCollab/>
-      <Sobre/>
+      <AboutLink/>
       <Menu/>
     </header>
   );

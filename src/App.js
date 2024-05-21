@@ -3,7 +3,7 @@ import "./App.css";
 
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
-import Sobre from "./objects/Sobre";
+import AboutLink from "./objects/Sobre";
 import IconClose from "./objects/IconClose";
 import LogoCollab from "./objects/LogoCollab";
 import Header from "./components/Header";
@@ -17,7 +17,7 @@ function App() {
       <Checkbox value="show" id="show" content="Mostrar eventos" type="checkbox"/>
       <About>
         <LogoCollab />
-        <Sobre className="-light"/>
+        <AboutLink className="-light"/>
         <IconClose />
       </About>
     </main>
