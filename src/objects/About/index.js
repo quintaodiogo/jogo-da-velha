@@ -2,6 +2,6 @@ import React from 'react';
 import "./style.css";
 
 const About = () => (
-    <article className='about'>Diogo de Paula</article>
+    <article className='about'></article>
 );
 export default About;
