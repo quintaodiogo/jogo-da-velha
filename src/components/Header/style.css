@@ -6,7 +6,7 @@
 }
 .header > .sobre{
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: var(--spacing-small);
 }
 .header > .menu{
     width: 25px;
