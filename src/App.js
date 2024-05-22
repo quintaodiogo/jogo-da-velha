@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 import Checkbox from "./objects/Checkbox";
@@ -9,13 +9,21 @@ import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
 
 function App() {
+  const [isActive, setIsActive] = useState(false);
+  const onClick = () => setIsActive(!isActive);
+  console.log(isActive);
   return (
     <main className="app">
-      <Header />
+      <Header onClick={onClick} />
       <Hashtag />
-      <Checkbox value="show" id="show" content="Mostrar eventos" type="checkbox"/>
-      <About>
-        <HeaderInternal />
+      <Checkbox
+        value="show"
+        id="show"
+        content="Mostrar eventos"
+        type="checkbox"
+      />
+      <About isActive={isActive}>
+        <HeaderInternal onClick={onClick} />
         <ProfileUser />
       </About>
     </main>

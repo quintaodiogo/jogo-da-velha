@@ -5,4 +5,16 @@
 .profile-user > .title{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.profile-user > .socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.profile-user > .socials > .icon-social{
+    margin-right: 15px;
 }
